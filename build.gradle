@@ -1,0 +1,30 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+group 'org.example'
+version '0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation "org.jmonkeyengine:jme3-core:3.3.2-stable"
+    implementation "org.jmonkeyengine:jme3-desktop:3.3.2-stable"
+    implementation "org.jmonkeyengine:jme3-lwjgl:3.3.2-stable"
+    implementation files('C:/graalvm-ce-java11-21.0.0-dev/lib/svm/builder/svm.jar')
+}
+
+compileKotlin {}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'MainKt'
+    }
+}
+
+shadowJar {}

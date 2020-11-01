@@ -1,0 +1,307 @@
+[
+{
+  "name":"com.jme3.app.state.AppState[]"
+},
+{
+  "name":"com.jme3.asset.cache.SimpleAssetCache",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.asset.cache.WeakRefCloneAssetCache",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.asset.plugins.ClasspathLocator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.audio.lwjgl.LwjglAL",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.audio.lwjgl.LwjglALC",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.audio.lwjgl.LwjglEFX",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.audio.plugins.WAVLoader"
+},
+{
+  "name":"com.jme3.cursors.plugins.CursorLoader"
+},
+{
+  "name":"com.jme3.export.binary.BinaryLoader"
+},
+{
+  "name":"com.jme3.font.plugins.BitmapFontLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.input.RawInputListener[]"
+},
+{
+  "name":"com.jme3.material.MatParamOverride[]"
+},
+{
+  "name":"com.jme3.material.TechniqueDef",
+  "methods":[{"name":"clone","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.material.logic.DefaultTechniqueDefLogic",
+  "methods":[{"name":"<init>","parameterTypes":["com.jme3.material.TechniqueDef"] }]
+},
+{
+  "name":"com.jme3.material.plugins.J3MLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.material.plugins.ShaderNodeDefinitionLoader"
+},
+{
+  "name":"com.jme3.math.ColorRGBA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.scene.Spatial[]"
+},
+{
+  "name":"com.jme3.scene.VertexBuffer[]"
+},
+{
+  "name":"com.jme3.scene.control.Control[]"
+},
+{
+  "name":"com.jme3.scene.plugins.MTLLoader"
+},
+{
+  "name":"com.jme3.scene.plugins.OBJLoader"
+},
+{
+  "name":"com.jme3.shader.plugins.GLSLLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.system.JmeDesktopSystem",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.system.lwjgl.LwjglDisplay",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.texture.TextureProcessor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.texture.plugins.AWTLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.jme3.texture.plugins.DDSLoader"
+},
+{
+  "name":"com.jme3.texture.plugins.HDRLoader"
+},
+{
+  "name":"com.jme3.texture.plugins.PFMLoader"
+},
+{
+  "name":"com.jme3.texture.plugins.TGALoader"
+},
+{
+  "name":"com.jme3.util.ReflectionAllocator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.java.swing.plaf.windows.WindowsButtonUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"com.sun.java.swing.plaf.windows.WindowsCheckBoxUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"com.sun.java.swing.plaf.windows.WindowsComboBoxUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"com.sun.java.swing.plaf.windows.WindowsLabelUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"com.sun.java.swing.plaf.windows.WindowsLookAndFeel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.java.swing.plaf.windows.WindowsPopupMenuUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"com.sun.java.swing.plaf.windows.WindowsScrollBarUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"com.sun.java.swing.plaf.windows.WindowsTextFieldUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"java.awt.SequencedEvent"
+},
+{
+  "name":"java.awt.SystemColor",
+  "fields":[
+    {"name":"activeCaption"}, 
+    {"name":"activeCaptionBorder"}, 
+    {"name":"activeCaptionText"}, 
+    {"name":"control"}, 
+    {"name":"controlDkShadow"}, 
+    {"name":"controlHighlight"}, 
+    {"name":"controlLtHighlight"}, 
+    {"name":"controlShadow"}, 
+    {"name":"controlText"}, 
+    {"name":"desktop"}, 
+    {"name":"inactiveCaption"}, 
+    {"name":"inactiveCaptionBorder"}, 
+    {"name":"inactiveCaptionText"}, 
+    {"name":"info"}, 
+    {"name":"infoText"}, 
+    {"name":"menu"}, 
+    {"name":"menuText"}, 
+    {"name":"scrollbar"}, 
+    {"name":"text"}, 
+    {"name":"textHighlight"}, 
+    {"name":"textHighlightText"}, 
+    {"name":"textInactiveText"}, 
+    {"name":"textText"}, 
+    {"name":"window"}, 
+    {"name":"windowBorder"}, 
+    {"name":"windowText"}
+  ]
+},
+{
+  "name":"java.awt.event.KeyEvent",
+  "fields":[
+    {"name":"VK_A"}, 
+    {"name":"VK_BACK_SLASH"}, 
+    {"name":"VK_BACK_SPACE"}, 
+    {"name":"VK_C"}, 
+    {"name":"VK_CONTEXT_MENU"}, 
+    {"name":"VK_COPY"}, 
+    {"name":"VK_CUT"}, 
+    {"name":"VK_DELETE"}, 
+    {"name":"VK_DOWN"}, 
+    {"name":"VK_END"}, 
+    {"name":"VK_ENTER"}, 
+    {"name":"VK_ESCAPE"}, 
+    {"name":"VK_F10"}, 
+    {"name":"VK_F4"}, 
+    {"name":"VK_H"}, 
+    {"name":"VK_HOME"}, 
+    {"name":"VK_INSERT"}, 
+    {"name":"VK_KP_DOWN"}, 
+    {"name":"VK_KP_LEFT"}, 
+    {"name":"VK_KP_RIGHT"}, 
+    {"name":"VK_KP_UP"}, 
+    {"name":"VK_LEFT"}, 
+    {"name":"VK_O"}, 
+    {"name":"VK_PAGE_DOWN"}, 
+    {"name":"VK_PAGE_UP"}, 
+    {"name":"VK_PASTE"}, 
+    {"name":"VK_RIGHT"}, 
+    {"name":"VK_SLASH"}, 
+    {"name":"VK_SPACE"}, 
+    {"name":"VK_UP"}, 
+    {"name":"VK_V"}, 
+    {"name":"VK_X"}
+  ]
+},
+{
+  "name":"java.awt.event.MouseMotionListener[]"
+},
+{
+  "name":"java.lang.ClassLoader",
+  "methods":[{"name":"findLibrary","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address", "allowUnsafeAccess":true}]
+},
+{
+  "name":"javax.imageio.spi.ImageReaderWriterSpi",
+  "methods":[
+    {"name":"getFileSuffixes","parameterTypes":[] }, 
+    {"name":"getFormatNames","parameterTypes":[] }, 
+    {"name":"getMIMETypes","parameterTypes":[] }
+  ]
+},
+{
+  "name":"javax.swing.plaf.basic.BasicListUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"javax.swing.plaf.basic.BasicPanelUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"javax.swing.plaf.basic.BasicScrollPaneUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"javax.swing.plaf.basic.BasicViewportUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"javax.swing.plaf.metal.MetalRootPaneUI",
+  "methods":[{"name":"createUI","parameterTypes":["javax.swing.JComponent"] }]
+},
+{
+  "name":"org.lwjgl.MemoryUtilSun$AccessorUnsafe",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.lwjgl.input.Keyboard",
+  "allPublicFields":true
+},
+{
+  "name":"org.lwjgl.opengl.Display",
+  "methods":[{"name":"getImplementation","parameterTypes":[] }]
+},
+{
+  "name":"org.lwjgl.opengl.GlobalLock",
+  "fields":[{"name":"lock"}]
+},
+{
+  "name":"org.lwjgl.opengl.WindowsDisplay",
+  "methods":[{"name":"handleMessage","parameterTypes":["long","int","long","long","long"] }]
+},
+{
+  "name":"sun.awt.Symbol",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.awt.Win32FontManager",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.awt.windows.WingDings",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.java2d.marlin.DMarlinRenderingEngine",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.misc.Unsafe",
+  "allDeclaredFields":true
+},
+{
+  "name":"sun.nio.ch.DirectBuffer",
+  "methods":[
+    {"name":"attachment","parameterTypes":[] }, 
+    {"name":"cleaner","parameterTypes":[] }
+  ]
+}
+]
